@@ -1,0 +1,21 @@
+p.solid {border-style: solid;}
+
+a {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
