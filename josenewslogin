@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" href="ose.gif" type="image/gif" >
+<link rel="icon" href="file:///home/jerome/Downloads/ose.gif" type="image/gif" >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
@@ -13,11 +13,11 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background-color: black; /* Light grey background */
+            background-color: #f4f4f4; /* Light grey background */
         }
 
         .login-container {
-            background-color: white;
+            background-color: #fff;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -94,13 +94,13 @@
             const errorMessage = document.getElementById('errorMessage');
 
             const users = {
-                'jerome': { password: 'jose76', redirect: 'josehome.html' },
-                'j.kirk': { password: 'jkirk34', redirect: 'josiahhome.html' },
-                'jose': { password: 'joseph67', redirect: 'josephhome.html' },
-                'liamn': { password: 'liam67', redirect: 'liamhome.html' },
-                 'admin': { password: 'adminjerome65', redirect: 'josehome.html' },
-                 'yeet_doogle54': { password: 'yeetnothingjose76', redirect: 'josehome.html' },
-                'CHLOE': { password: 'chloe54', redirect: 'chloehome.html' }
+                'jerome': { password: 'jose76', redirect: 'josenews.html' },
+                'j.kirk': { password: 'jkirk34', redirect: 'josenews.html' },
+                'jose': { password: 'joseph67', redirect: 'josenews.html' },
+                'liamn': { password: 'liam67', redirect: 'josenews.html' },
+                 'admin': { password: 'adminjerome65', redirect: 'josenews.html' },
+                 'yeet_doogle54': { password: 'yeetnothingjose76', redirect: 'josenews.html' },
+                'CHLOE': { password: 'chloe54', redirect: 'josenews.html' }
             };
 
             if (users[username] && users[username].password === password) {
